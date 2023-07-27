@@ -109,7 +109,7 @@ export default function LoginModal({ isToReservationCheck, redirectPath }: Login
       setUserNickname(responseData.result.nickname || '');
       setUserId(responseData.result.userId);
       setIsLoginModalOpen(false);
-      window.history.replaceState(null, '', '/');
+      // window.history.replaceState(null, '', '/');
       navigation(location?.state?.redirectedFrom?.pathname || redirectPath || '/');
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
