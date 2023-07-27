@@ -19,3 +19,7 @@ export const USER_EMAIL_API_PATH = '/user/email';
 export const USER_NICKNAME_API_PATH = '/user/nickname';
 export const USER_PHONE_API_PATH = '/user/phone';
 export const USER_ACCOUNT_API_PATH = '/user/account';
+
+//소셜 로그인
+export const GOOGLE_SOCIAL_LOGOIN_PATH = '/oauth2/authorization/google';
+export const NAVER_SOCIAL_LOGOIN_PATH = '/oauth2/authorization/naver';
