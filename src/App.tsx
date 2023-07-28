@@ -25,18 +25,18 @@ function App() {
 
   useEffect(() => {
     sendRefreshToken();
-
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
+    setIsCheckLoginState(true);
     if (!responseData) return;
     if (responseData.isSuccess) {
       setAccessToken(responseData.result.accessToken);
     } else {
       logoutHandler();
     }
-    setIsCheckLoginState(true);
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [responseData]);
 
