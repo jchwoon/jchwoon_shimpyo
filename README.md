@@ -43,7 +43,7 @@
 # 🔧 기술 스택
 
 - Core:React18, TypeScript, Recoil
-- CSS: Styled-Component, MaterialUI
+- CSS: Styled-Component
 - Code Management:Git, GitHub
 - DevOps:AWS EC2, NGINX, GitHub Actions
 - Communication: Slack, GoogleDocs 
